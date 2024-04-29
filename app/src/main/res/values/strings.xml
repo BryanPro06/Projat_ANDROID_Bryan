@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">ASSURANCE SAINT-GABRIEL</string>
+
+    <!-- Page d'acceuil -->
+    <string name="home_page_title">A découvrir</string>
+    <string name="home_page_last_assurance_section">Derniers assurances</string>
+
+    <!-- Page de Collection -->
+    <string name="collection_page_title">Mes assurances</string>
+
+    <!-- Page d'Ajout d'Assurance -->
+    <string name="add_assurance_page_title">Ajout d\'une assurance</string>
+    <string name="add_assurance_page_upload_button">Charger assurance</string>
+    <string name="add_assurance_page_name_input">@string/item_assurance_name</string>
+    <string name="add_assurance_page_description_input">@string/item_assurance_description</string>
+
+    <!--int déroulé -->
+    <string-array name="add_assurance_page">
+        <item>@firebase/offre/offre1</item>
+        <item>Croissance : Moyenne</item>
+        <item>Croissance : Rapde</item>
+    </string-array>
+
+    <string name="add_assurance_page_confirm_button">Confirmer</string>
+
+    <!-- Fenetre Pop-up details -->
+    <string name="popup_assurance_name">Nom d\'Assurance</string>
+    <string name="popup_assurance_description_title">Description</string>
+    <string name="popup_assurance_description_subtitle">Petite description</string>
+    <!-- <string name="popup_assurance_grow_title">Croissance</string>
+    <string name="popup_assurance_grow_subtitle">Lente</string>
+    <string name="popup_assurance_water_title">Consommation Eau</string>
+    <string name="popup_assurance_grow_subtitle">Faible</string> -->
+
+    <!--Assurance customize -->
+    <string name="item_assurance_name">Nom de l'assurance</string>
+    <string name="item_assurance_description">Description de l'assurance</string>
+
+    <!-- POPUP HAMON (EXAM) -->
+    <string name="popup2_hamon_title">Information :</string>
+    <string name="popup2_hamon_name">La loi HAMON :</string>
+    <string name="popup2_hamon_text">Depuis 2015, la loi Hamon permet aux assurés de résilier leur contrat d\'assurance après 1
+    an d\'adhésion, sans être exposé à des pénalités. La loi Hamon s'applique également aux contrats à tacite recondition.</string>
+</resources>
